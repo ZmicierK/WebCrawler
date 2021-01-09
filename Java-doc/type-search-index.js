@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.zmicierk.webcrawler","l":"CSVTable"},{"p":"com.zmicierk.webcrawler","l":"WebCrawler"},{"p":"com.zmicierk.webcrawler","l":"WebCrawlerTest"},{"p":"com.zmicierk.webcrawler","l":"WebCrawlerThread"}];updateSearchResults();
