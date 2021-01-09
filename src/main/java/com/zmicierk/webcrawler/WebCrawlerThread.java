@@ -156,7 +156,7 @@ public class WebCrawlerThread {
         this.numToPrintInTopFile = numToPrintInTopFile;
         this.topFileName = topFileName;
         this.rawFileName = rawFileName;
-        this.startUrl = startUrl.toLowerCase(Locale.ROOT);
+        this.startUrl = startUrl;
         this.termString = termString;
         this.arOfTerms = arOfTerms;
         this.printHeader = printHeader;
@@ -270,7 +270,7 @@ public class WebCrawlerThread {
                 curHref = url.substring(0, url.lastIndexOf('/')) + curHref;
             }
             if (!urlArray.contains(curHref) && !urlQuaFormed.contains(curHref) && !urlQuaCur.contains(curHref)) {
-                urlQuaFormed.add(curHref.toLowerCase(Locale.ROOT));
+                urlQuaFormed.add(curHref);
             }
         }
         printToCSV(url, matches.toString());
